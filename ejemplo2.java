@@ -61,15 +61,15 @@ public class Main
     public static void main(String[] args)
     {
         Article article = new Article(1, "My Article");
-        article.setContent("ABC");      //original content
+        article.setContent("ABC");     
         System.out.println(article);
          
-        ArticleMemento memento = article.createMemento();   //created immutable memento
+        ArticleMemento memento = article.createMemento(); 
          
-        article.setContent("123");      //changed content
+        article.setContent("123");  
         System.out.println(article);
          
-        article.restore(memento);       //UNDO change
-        System.out.println(article);    //original content
+        article.restore(memento);       
+        System.out.println(article);    
     }
 }
