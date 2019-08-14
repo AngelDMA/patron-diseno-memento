@@ -25,4 +25,4 @@ Desde el "cliente" se guarda el estado en el originator, este originator almacen
 
 ## Desventajas
 - A mayor número de mementos, mayor será el espacio de almacenamiento, por lo que puede que no sea conveniente para todas las aplicaciones, o se deba de colocar un máximo número de estados a guardar.
--A mayor cantidad de veces que se desee guardar el estado de un sistema, menor rendimiento de la aplicación.
+- A mayor cantidad de veces que se desee guardar el estado de un sistema, menor rendimiento de la aplicación.
